@@ -27,7 +27,6 @@ export const character: Character = {
     ...(process.env.DISCORD_API_TOKEN ? ['@elizaos/plugin-discord'] : []),
     ...(process.env.TWITTER_USERNAME ? ['@elizaos/plugin-twitter'] : []),
     ...(process.env.TELEGRAM_BOT_TOKEN ? ['@elizaos/plugin-telegram'] : []),
-    '@elizaos-plugins/plugin-aptos',
   ],
   settings: {
     secrets: {},
